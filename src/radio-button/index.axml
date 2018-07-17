@@ -1,0 +1,7 @@
+<view class="radio-grid-box">
+  <view a:for="{{btns}}" onTap="onBtnTap" class="{{current === item.name ? 'select' : ''}}" a:key="{{item.name}}" data-name="{{item.name}}">
+    <slot item="{{item}}" select="{{current === item.name}}">
+      <view class="radio-grid-item">{{item.title}}</view>
+    </slot>
+  </view>
+</view>

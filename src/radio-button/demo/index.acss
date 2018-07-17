@@ -1,0 +1,37 @@
+.full-width {
+  width: 100%;
+  padding: 60rpx;
+}
+.type-radio-grid-item {
+  width: 162rpx;
+  height: 118rpx;
+  background: #f8f8f8;
+  border-radius: 4rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18rpx;
+  box-sizing: border-box;
+  margin-bottom: 30rpx;
+  border: 1rpx solid #ccc;
+}
+.select .type-radio-grid-item {
+  background: #108EE9;
+  color: #fff;
+}
+.type-radio-grid-item view {
+  width: 100%;
+}
+.type-item-icon {
+  height: 36rpx;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 36rpx 36rpx;
+}
+.type-item-title {
+  font-size: 28rpx;
+  color: #333;
+}
+.select .type-item-title {
+  color: #fff;
+}

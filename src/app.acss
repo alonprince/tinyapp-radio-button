@@ -1,0 +1,5 @@
+page {
+  font-size: 30rpx;
+  flex: 1;
+  display: flex;
+}

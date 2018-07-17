@@ -1,0 +1,8 @@
+src/
+scripts/
+yarn.lock
+.npmrc
+.npmignore
+.eslintrc
+.gitignore
+node_modules/

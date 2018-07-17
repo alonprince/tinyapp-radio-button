@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "radio-button/demo/index"
+  ],
+  "window": {
+    "defaultTitle": "Demo",
+    "enableWK": "YES",
+    "enableDSL": true
+  }
+}

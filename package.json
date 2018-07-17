@@ -1,0 +1,33 @@
+{
+  "name": "tinyapp-radio-button",
+  "version": "0.0.1",
+  "description": "支付宝小程序可用的radio-button",
+  "main": "index.js",
+  "keywords": [
+    "mini-program"
+  ],
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-ali": "^3.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "pre-commit-eslint": "^0.0.6",
+    "rc-tools": "6.x"
+  },
+  "scripts": {
+    "build": "rc-tools run compile && node scripts/cp.js && node scripts/rm.js",
+    "pub": "git push origin && npm run build && npm publish"
+  },
+  "files": [
+    "es"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alonprince/tinyapp-radio-button.git"
+  },
+  "author": "Phishing <alonprince@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alonprince/tinyapp-radio-button/issues"
+  },
+  "homepage": "https://github.com/alonprince/tinyapp-radio-button#readme"
+}
