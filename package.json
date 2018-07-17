@@ -1,6 +1,6 @@
 {
   "name": "tinyapp-radio-button",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "支付宝小程序可用的radio-button",
   "main": "index.js",
   "keywords": [
